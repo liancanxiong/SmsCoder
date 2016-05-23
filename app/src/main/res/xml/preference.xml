@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/function">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_switch"
+            android:summaryOff="已关闭短信验证码识别"
+            android:summaryOn="已开启短信验证码识别"
+            android:title="短信验证码识别" />
+
+        <ListPreference
+            android:defaultValue="@string/copy_value"
+            android:entries="@array/entries_list"
+            android:entryValues="@array/value_list"
+            android:key="@string/key_way"
+            android:summary="@string/copy"
+            android:title="处理方式" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/other">
+        <Preference
+            android:key="@string/key_about"
+            android:title="@string/about" />
+    </PreferenceCategory>
+</PreferenceScreen>

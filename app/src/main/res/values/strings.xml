@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">小码</string>
+    <string name="function">功能</string>
+    <string name="other">其他</string>
+
+    <string name="copy">复制到剪贴板</string>
+    <string name="notice">发送通知</string>
+    <string name="copy_value">0</string>
+    <string name="notice_value">1</string>
+    <string name="key_way">key_way</string>
+    <string name="key_switch">key_switch</string>
+    <string name="about">关于</string>
+    <string name="key_about">key_about</string>
+    <string name="content_about"><![CDATA[<h2>应用：小码</h2><h2>作者：brilliantBear</h2><h2>感谢：RikkaW</h2><div>联系我:<a href="mailto:canxionglian@gmail.com">canxionglian@gmail.com</a></div>]]></string>
+    <string name="reason">本应用需要获取短信权限才能识别短信验证码</string>
+    <string name="get_permission">授予权限</string>
+    <string name="permission_denied">无法获取权限，本应用无法正常工作</string>
+    <string name="cancel">取消</string>
+
+    <array name="entries_list">
+        <item>@string/copy</item>
+        <item>@string/notice</item>
+    </array>
+
+    <array name="value_list">
+        <item>@string/copy_value</item>
+        <item>@string/notice_value</item>
+    </array>
+</resources>
